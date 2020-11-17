@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-env-sample",
+  "version": "1.0.0",
+  "description": "NextJSの環境変数周り",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=hoge next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojisan-toybox/nextjs-env-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojisan-toybox/nextjs-env-sample/issues"
+  },
+  "homepage": "https://github.com/ojisan-toybox/nextjs-env-sample#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
