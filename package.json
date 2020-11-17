@@ -4,9 +4,8 @@
   "description": "NextJSの環境変数周り",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=hoge ORIGINAL_ENV=hoge ORIGINAL_ENV_OVERCONFIG=hoge NEXT_PUBLIC_ORIGINAL_ENV=hoge next build",
-    "start": "NODE_ENV=hoge ORIGINAL_ENV=hoge ORIGINAL_ENV_OVERCONFIG=hoge NEXT_PUBLIC_ORIGINAL_ENV=hoge next start",
-    "dev": "next dev"
+    "build": "NEXT_PUBLIC_ORIGINAL_ENV=hoge next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
