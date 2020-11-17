@@ -4,6 +4,14 @@ export default () => {
     "<component> process.env.ORIGINAL_ENV: ",
     process.env.ORIGINAL_ENV
   );
+  console.log(
+    "<component> process.env.ORIGINAL_ENV_OVERCONFIG: ",
+    process.env.ORIGINAL_ENV_OVERCONFIG
+  );
+  console.log(
+    "<component> process.env.NEXT_PUBLIC_ORIGINAL_ENV: ",
+    process.env.NEXT_PUBLIC_ORIGINAL_ENV
+  );
   return <div>hello world!!</div>;
 };
 
