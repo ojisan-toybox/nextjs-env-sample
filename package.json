@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=hoge next build",
-    "start": "next start",
+    "start": "NODE_ENV=hoge ORIGINAL_ENV=hoge next start",
     "dev": "next dev"
   },
   "repository": {
